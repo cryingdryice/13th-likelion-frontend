@@ -1,0 +1,15 @@
+h1 {
+	color: blue;
+}
+
+.box {
+	width: 200px;
+	height: 100px;
+	background-color: lightgray;
+}
+
+#yellow {
+	background-color: yellow;
+	font-size: 20px;
+	font-weight: bold;
+}
