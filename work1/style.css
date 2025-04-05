@@ -28,3 +28,37 @@ div {
 #margin-box {
 	margin: 20px;
 }
+
+.container {
+	display: flex;
+	gap: 50px;
+}
+
+.container > div {
+	width: 200px;
+	height: 200px;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.box > div {
+	border: 1px solid black;
+}
+
+#row-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#column-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#center-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
