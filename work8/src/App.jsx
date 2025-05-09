@@ -1,7 +1,11 @@
-import React from "react";
+import NameInput from "./NameInput";
 
 const App = () => {
-	return <div>App</div>;
+	return (
+		<div>
+			<NameInput />
+		</div>
+	);
 };
 
 export default App;
