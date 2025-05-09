@@ -1,5 +1,6 @@
 import HookStructure from "./HookStructure";
 import ItemList from "./ItemList";
+import MovieList from "./MovieList";
 import NameInput from "./NameInput";
 import TimerSwitch from "./TimerSwitch";
 
@@ -9,7 +10,8 @@ const App = () => {
 			{/* <NameInput /> */}
 			{/* <HookStructure /> */}
 			{/* <ItemList /> */}
-			<TimerSwitch />
+			{/* <TimerSwitch /> */}
+			<MovieList />
 		</div>
 	);
 };
